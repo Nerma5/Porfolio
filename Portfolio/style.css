@@ -27,6 +27,8 @@
   margin-left: 13%;
   margin-top: 15%;
   align-items: center;
+  flex-wrap: wrap;
+  flex: 1 1 40rem;
 }
 
 .sticky ul li {
@@ -34,6 +36,8 @@
   justify-content: space-around;
   font-size: 23px;
   padding: 10px;
+  flex-wrap: wrap;
+  flex: 1 1 40rem;
 }
 
 .Home {
@@ -67,6 +71,8 @@
   color: black;
   display: flex;
   margin-left: 25%;
+  flex-wrap: wrap;
+  flex: 1 1 40rem;
 }
 .contactIcons a:hover {
   border-bottom: 4px solid rgb(12, 79, 12);
@@ -90,5 +96,27 @@
 }
 
 .information {
-  margin-top: 0;
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.information p {
+  margin-top: 9%;
+  font-size: 20px;
+  text-align: center;
+}
+.ilustration {
+  margin-top: 7%;
+}
+#coffe3 {
+  animation: coffe3 1.5s ease infinite;
+}
+
+@keyframes coffe3 {
+  from {
+    transform: translateY(20%) ;
+  }
+  to {
+    transform: translateY(0%);
+  }
 }
